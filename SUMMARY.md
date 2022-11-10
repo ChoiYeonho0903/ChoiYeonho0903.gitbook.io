@@ -2,21 +2,14 @@
 
 * [👋 Welcome to A Product](README.md)
 
-## Overview
+## Introduce
 
-* [💡 What we do](overview/what-we-do.md)
-* [✨ Our Features](overview/our-features.md)
+* [💡 Introduce](introduce/introduce.md)
 
 ## Study <a href="#Study" id="Study"></a>
 
-* [📪 Making a post](Study/making-a-post.md)
-* [📎 Understanding Projects](Study/understanding-projects.md)
-
-## Fundamentals
-
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
+* [JPA](Study/jpa/README.md)
+  * [영속성 컨텍스트](Study/jpa/undefined.md)
 
 ## Use Cases
 
