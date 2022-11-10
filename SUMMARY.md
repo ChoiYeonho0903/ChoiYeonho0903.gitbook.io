@@ -8,8 +8,13 @@
 
 ## Study <a href="#Study" id="Study"></a>
 
+* [Database](Study/database/README.md)
+  * [정규화 & 비정규화](Study/database/and.md)
+* [Spring](Study/spring/README.md)
+  * [Spring Transaction](Study/spring/spring-transaction.md)
 * [JPA](Study/jpa/README.md)
   * [영속성 컨텍스트](Study/jpa/undefined.md)
+  * [OSIV](Study/jpa/osiv.md)
 
 ## Use Cases
 
