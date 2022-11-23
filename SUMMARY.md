@@ -15,6 +15,8 @@
 * [JPA](Study/jpa/README.md)
   * [영속성 컨텍스트](Study/jpa/undefined.md)
   * [OSIV](Study/jpa/osiv.md)
+* [Java](Study/java/README.md)
+  * [Stream](Study/java/stream.md)
 
 ## Use Cases
 
