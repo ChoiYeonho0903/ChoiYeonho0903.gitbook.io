@@ -2,7 +2,7 @@
 
 ### 1. 엔티티 매니저 팩토리 & 엔티티 매니저
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### (1) 엔티티 매니저
 
@@ -25,7 +25,7 @@
 * em.persist(member)
   * persist() 메소드는 엔티티 매니저를 사용해서 회원 엔티티를 영속성 컨택스트에 저장한다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:red;">**영속성 컨텍스트는 엔티티 매니저를 생성할 때마다 하나씩 만들어진다.**</mark>
 * 엔티티 매니저를 통해서 영속성 컨텍스에 접근할 수 있고, 영속성 컨텍스트를 관리할 수 있다.
@@ -54,7 +54,7 @@
 
 #### (1) 1차 캐시
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 영속성 컨텍스트는 내부에 캐시를 가지고 있다. (1차 캐시)
 * 영속 상태의 엔티티는 모두 이곳에 저장된다.
@@ -122,7 +122,7 @@ tx.commit(); //커밋하는 순간 데이터베이스에 INSERT SQL을 보낸다
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
@@ -181,7 +181,7 @@ tx.commit();
 
 #### (1) detach()를 사용한 준영속 상태 전환
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 메소드를 호출하는 순간 1차 캐시부터 쓰기 지연 SQL 저장소까지 해당 엔티티를 관리하기 위한 정보가 삭제된다.
 
@@ -208,5 +208,5 @@ tx.commit();
 
 * 준영속 상태의 엔티티를 다시 영속 상태로 변경하려면 병합을 사용하면 된다.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 

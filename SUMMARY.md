@@ -10,6 +10,7 @@
 
 * [Database](Study/database/README.md)
   * [정규화 & 비정규화](Study/database/and.md)
+  * [Transaction](Study/database/transaction.md)
 * [Spring](Study/spring/README.md)
   * [Spring Transaction](Study/spring/spring-transaction.md)
 * [JPA](Study/jpa/README.md)
